@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Login
-# Register your models here.
+# Import your custom models here if you have any
 
-admin.site.register(Login)
+# Example:
+# from .models import CustomModel
+# admin.site.register(CustomModel)
